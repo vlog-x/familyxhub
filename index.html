@@ -79,6 +79,50 @@
       margin: 100px auto;
     }
     
+    .profile-container {
+      display: flex;
+      flex-direction: row;
+      padding: 2vh 1vw 0 1vw;
+    }
+
+    .profile-picture {
+      flex: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .profile-picture-img {
+      width: 35vw;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(200, 200, 200, 0.5);
+    }
+
+    .profile-information {
+      flex: 60%;
+      display: flex;
+      flex-direction: column;
+      gap: 0.8vh;
+      padding-left: 5vw;
+    }
+
+    .label {
+      color: #4285F4;
+      font-size: 2.5vh;
+      font-weight: 700;
+    }
+
+    .label-value {
+      font-size: 1.9vh;
+      color: white;
+    }
+    
+    .profile-site-marquee {
+      color: white;
+      font-size: 2.5vh;
+      font-weight: 500;
+    }
+    
     @keyframes spin {
       0% {
         transform: rotate(0deg);
@@ -103,10 +147,23 @@
   <nav class="nav-bar">
     <a href="#"><span class="nav-title"><i>Family <span style="color: #4285F4;">x</span> <span style="color: #EA4335;">H</span><span style="color: #FBBC04;">U</span><span style="color: #34A853;">B</span></i></span></a>
   </nav>
+  
   <section id="banner-image"></section>
   <section class="banner-loader">
     <div class="loader"></div>
   </section>
+  
+  <marquee class="profile-site-marquee">Welcome to the popular site for <span style="color: #EA4335">Incest</span>&nbsp;<span style="color: #4285F4">x</span>&nbsp;<span style="color: #FBBC04">Fitesh</span>&nbsp;<span style="color: #4285F4">x</span>&nbsp;<span style="color: #34A853">Pervy</span></marquee>
+  
+  <article class="profile-container">
+    <section class="profile-picture">
+      <img class="profile-picture-img" src="https://vlog-x.github.io/mydatabase/FXH_Profile.jpg" alt="profile-picture"/>
+    </section>
+    <section class="profile-information">
+      <span class="label">Site Description: <span class="label-value">This site involving the depiction of sexual activity between relatives and can feature actual relatives, but the main type of this pornography is fauxcest, which features non-related actors to suggest family relationship.</span></span>
+    </section>
+  </article>
+  
   </main>
   <script>
     const bannerimages = [
